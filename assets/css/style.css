@@ -37,8 +37,7 @@ body {
     width: 50%;
     font-size: 2rem;
     margin: auto;
-    padding: 20px 0;
-    position: relative; /* anchor for absolute children */
+    padding: 50px 0;
 }
 
 .question-area span {
@@ -69,16 +68,6 @@ body {
 .answer-message {
     display: none;
     font-size: 1rem;
-}
-
-.rounding-prompt {
-  visibility: hidden;
-  font-size: 1rem;
-}
-
-.rounding-prompt.show {
-  visibility: visible;
-  font-size: 1rem;
 }
 
 #answer-box {
